@@ -55,7 +55,7 @@ ROOT_URLCONF = 'my_first_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates/awesome_app'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
